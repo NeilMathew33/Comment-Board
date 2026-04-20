@@ -5,6 +5,7 @@ import AddComment from './Components/AddComment';
 import ViewAllComments from './Components/ViewAllComments';
 import CommentNavbar from './Components/CommentNavbar';
 import Login from './Components/Login';
+import SignUp from './Components/SignUp';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <Route path="/Add" element= {<AddComment />} />
       <Route path="/ViewAll" element= {<ViewAllComments />} />
       <Route path="/" element= {<Login />} />
+      <Route path="/SignUp" element= {<SignUp />} />
     </Routes>
     </BrowserRouter>
   );
